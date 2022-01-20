@@ -1,8 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./index.css";
 
-//Component #1
-function HelloWorld() {
-	return <h1> Hello, World! </h1>; //JSX Element
+function App(){
+
+	return (
+		<div className="app">
+			<header className="app-header">
+				<h1>To Do List</h1>
+				<p>A simple To Do List created with React.js</p>
+			</header>
+		</div>
+
+
+	)
+
 }
-ReactDOM.render(<HelloWorld />, document.getElementById("root"));
+
+ReactDOM.render(<App />, document.getElementById("root"));
