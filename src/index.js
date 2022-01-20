@@ -5,13 +5,13 @@ import "./index.css";
 function App(){
 
 	const paraStyle = {
-		"margin-bottom": "15px"
+		"margin-bottom": "80px"
 	};
 
 	return (
 		<div className="app">
 			<header className="app-header">
-				<h1>To Do List</h1>
+				<h1>To Do App</h1>
 				<p style = {paraStyle}>a simple to do list created with react.js</p>
 				<ul>
 					<li className="tasks-item">Follow Edukasyon.ph on Facebook</li>
