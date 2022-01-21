@@ -20,13 +20,16 @@ function TasksList(){
 	];
 
 	return (
-		<ul>
-			//First parameter will always be the actual value and second parameter is always the index
-			{taskItemsList.map((task, index) => {
-				return <Task key = {index} taskName = {task} />;
-				
-			})}
-		</ul>
+		<div>
+			<p>Input new task here</p>
+			<input className="task-input" />
+			<ul>
+				{taskItemsList.map((task, index) => {
+					return <Task key = {index} taskName = {task} />;
+					
+				})}
+			</ul>
+		</div>
 	);
 }
 
