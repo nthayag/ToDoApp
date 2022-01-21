@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -20,18 +21,18 @@
     font-size: calc(10px + 2vmin);
     color: white;
   }
-.app-header h1{
+    .app-header h1{
     font-weight: 700;
-}
-  .app-header p{
+    }
+    .app-header p{
       font-weight: 300;
       font-size: 15px;
-  }
-  .app-header ul{
+    }
+    .app-header ul{
       list-style: none;
       font-size: 20px;
       width: 50%;
-}
+    }
 
 .tasks-item {
   border: 1px solid #d3d3d30f;
